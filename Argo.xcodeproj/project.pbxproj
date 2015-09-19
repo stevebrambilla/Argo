@@ -9,7 +9,23 @@
 /* Begin PBXBuildFile section */
 		4D5F6DD91B3832C200D79B25 /* user_with_nested_name.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D5F6DD81B3832C200D79B25 /* user_with_nested_name.json */; };
 		4D5F6DDA1B3832C200D79B25 /* user_with_nested_name.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D5F6DD81B3832C200D79B25 /* user_with_nested_name.json */; };
-		BF92789D1B9365900038A7E1 /* RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92789C1B9365900038A7E1 /* RawRepresentable.swift */; settings = {ASSET_TAGS = (); }; };
+		AA0E9ECC1BACED2000AAD58F /* Decoded.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB69E1ABC5F1300E3B0AB /* Decoded.swift */; };
+		AA0E9ECD1BACED2000AAD58F /* RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92789C1B9365900038A7E1 /* RawRepresentable.swift */; };
+		AA0E9ECE1BACED2000AAD58F /* Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB6A01ABC5F1300E3B0AB /* Decodable.swift */; };
+		AA0E9ECF1BACED2000AAD58F /* decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB69A1ABC5F1300E3B0AB /* decode.swift */; };
+		AA0E9ED01BACED2000AAD58F /* OptionalOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4678651BA8930E004488D2 /* OptionalOperators.swift */; };
+		AA0E9ED11BACED2000AAD58F /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB69F1ABC5F1300E3B0AB /* JSON.swift */; };
+		AA0E9ED21BACED2000AAD58F /* flatReduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB69B1ABC5F1300E3B0AB /* flatReduce.swift */; };
+		AA0E9ED31BACED2000AAD58F /* sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB69C1ABC5F1300E3B0AB /* sequence.swift */; };
+		AA0E9ED41BACED2000AAD58F /* DecodeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84318A71B9A2D7A00165216 /* DecodeError.swift */; };
+		AA0E9ED51BACED2000AAD58F /* Runes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F876F1D61B56FBB300B38589 /* Runes.swift */; };
+		AA0E9ED61BACED2000AAD58F /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CBE6661A64521000316FBC /* Dictionary.swift */; };
+		AA0E9ED71BACED2000AAD58F /* DecodedOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF08FF1BAA174600704741 /* DecodedOperators.swift */; };
+		AA0E9ED81BACED2000AAD58F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD9FAF519D0F7900031E006 /* Operators.swift */; };
+		AA0E9ED91BACED2000AAD58F /* StandardTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB6A11ABC5F1300E3B0AB /* StandardTypes.swift */; };
+		AA0E9EDA1BACED2000AAD58F /* curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB6991ABC5F1300E3B0AB /* curry.swift */; };
+		AA0E9EDD1BACED2000AAD58F /* Argo.h in Headers */ = {isa = PBXBuildFile; fileRef = F893356D1A4CE8FC00B88685 /* Argo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF92789D1B9365900038A7E1 /* RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92789C1B9365900038A7E1 /* RawRepresentable.swift */; };
 		D0592EBE1B77DD8E00EFEF39 /* Decoded.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB69E1ABC5F1300E3B0AB /* Decoded.swift */; };
 		D0592EBF1B77DD8E00EFEF39 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB69F1ABC5F1300E3B0AB /* JSON.swift */; };
 		D0592EC01B77DD8E00EFEF39 /* Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB6A01ABC5F1300E3B0AB /* Decodable.swift */; };
@@ -21,16 +37,16 @@
 		D0592EC61B77DD9A00EFEF39 /* flatReduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB69B1ABC5F1300E3B0AB /* flatReduce.swift */; };
 		D0592EC71B77DD9A00EFEF39 /* sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB69C1ABC5F1300E3B0AB /* sequence.swift */; };
 		D0592EC81B77DD9A00EFEF39 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CBE6661A64521000316FBC /* Dictionary.swift */; };
-		E5DF09001BAA174600704741 /* DecodedOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF08FF1BAA174600704741 /* DecodedOperators.swift */; settings = {ASSET_TAGS = (); }; };
-		E5DF09011BAA174600704741 /* DecodedOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF08FF1BAA174600704741 /* DecodedOperators.swift */; settings = {ASSET_TAGS = (); }; };
-		E5DF09021BAA174600704741 /* DecodedOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF08FF1BAA174600704741 /* DecodedOperators.swift */; settings = {ASSET_TAGS = (); }; };
+		E5DF09001BAA174600704741 /* DecodedOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF08FF1BAA174600704741 /* DecodedOperators.swift */; };
+		E5DF09011BAA174600704741 /* DecodedOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF08FF1BAA174600704741 /* DecodedOperators.swift */; };
+		E5DF09021BAA174600704741 /* DecodedOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF08FF1BAA174600704741 /* DecodedOperators.swift */; };
 		EA08313119D5EEAF003B90D7 /* TypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA08313019D5EEAF003B90D7 /* TypeTests.swift */; };
 		EA08313319D5EEF2003B90D7 /* post_comments.json in Resources */ = {isa = PBXBuildFile; fileRef = EA08313219D5EEF2003B90D7 /* post_comments.json */; };
 		EA08313519D5EFC0003B90D7 /* types.json in Resources */ = {isa = PBXBuildFile; fileRef = EA08313419D5EFC0003B90D7 /* types.json */; };
-		EA1200CB1BAB5CBA006DDBD8 /* RawRepresentableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1200CA1BAB5CBA006DDBD8 /* RawRepresentableTests.swift */; settings = {ASSET_TAGS = (); }; };
-		EA1200CC1BAB5CBA006DDBD8 /* RawRepresentableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1200CA1BAB5CBA006DDBD8 /* RawRepresentableTests.swift */; settings = {ASSET_TAGS = (); }; };
-		EA1200CD1BAB621C006DDBD8 /* RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92789C1B9365900038A7E1 /* RawRepresentable.swift */; settings = {ASSET_TAGS = (); }; };
-		EA1200CE1BAB621C006DDBD8 /* RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92789C1B9365900038A7E1 /* RawRepresentable.swift */; settings = {ASSET_TAGS = (); }; };
+		EA1200CB1BAB5CBA006DDBD8 /* RawRepresentableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1200CA1BAB5CBA006DDBD8 /* RawRepresentableTests.swift */; };
+		EA1200CC1BAB5CBA006DDBD8 /* RawRepresentableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1200CA1BAB5CBA006DDBD8 /* RawRepresentableTests.swift */; };
+		EA1200CD1BAB621C006DDBD8 /* RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92789C1B9365900038A7E1 /* RawRepresentable.swift */; };
+		EA1200CE1BAB621C006DDBD8 /* RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92789C1B9365900038A7E1 /* RawRepresentable.swift */; };
 		EA395DC21A5209C000EB607E /* post_bad_comments.json in Resources */ = {isa = PBXBuildFile; fileRef = F8E33FA41A51E0C20025A6E5 /* post_bad_comments.json */; };
 		EA395DC41A52F8EB00EB607E /* array_root.json in Resources */ = {isa = PBXBuildFile; fileRef = EA395DC31A52F8EB00EB607E /* array_root.json */; };
 		EA395DC51A52F8EE00EB607E /* array_root.json in Resources */ = {isa = PBXBuildFile; fileRef = EA395DC31A52F8EB00EB607E /* array_root.json */; };
@@ -38,9 +54,9 @@
 		EA395DC81A52FA5300EB607E /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA395DC61A52F93B00EB607E /* ExampleTests.swift */; };
 		EA395DCA1A52FC1400EB607E /* root_object.json in Resources */ = {isa = PBXBuildFile; fileRef = EA395DC91A52FC1400EB607E /* root_object.json */; };
 		EA395DCB1A52FC1400EB607E /* root_object.json in Resources */ = {isa = PBXBuildFile; fileRef = EA395DC91A52FC1400EB607E /* root_object.json */; };
-		EA4678661BA8930E004488D2 /* OptionalOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4678651BA8930E004488D2 /* OptionalOperators.swift */; settings = {ASSET_TAGS = (); }; };
-		EA4678671BA8930E004488D2 /* OptionalOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4678651BA8930E004488D2 /* OptionalOperators.swift */; settings = {ASSET_TAGS = (); }; };
-		EA4678681BA8930E004488D2 /* OptionalOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4678651BA8930E004488D2 /* OptionalOperators.swift */; settings = {ASSET_TAGS = (); }; };
+		EA4678661BA8930E004488D2 /* OptionalOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4678651BA8930E004488D2 /* OptionalOperators.swift */; };
+		EA4678671BA8930E004488D2 /* OptionalOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4678651BA8930E004488D2 /* OptionalOperators.swift */; };
+		EA4678681BA8930E004488D2 /* OptionalOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4678651BA8930E004488D2 /* OptionalOperators.swift */; };
 		EA47BB531AFC5B76002D2CCD /* DecodedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47BB521AFC5B76002D2CCD /* DecodedTests.swift */; };
 		EA47BB541AFC5B76002D2CCD /* DecodedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47BB521AFC5B76002D2CCD /* DecodedTests.swift */; };
 		EA47BB561AFC5DAC002D2CCD /* user_with_bad_type.json in Resources */ = {isa = PBXBuildFile; fileRef = EA47BB551AFC5DAC002D2CCD /* user_with_bad_type.json */; };
@@ -81,9 +97,9 @@
 		F802D4C71A5EE2D5005E236C /* url.json in Resources */ = {isa = PBXBuildFile; fileRef = F802D4C51A5EE2D5005E236C /* url.json */; };
 		F84290291B57EFAE008F57B4 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84290281B57EFAE008F57B4 /* Curry.framework */; };
 		F842902B1B57EFB5008F57B4 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F842902A1B57EFB5008F57B4 /* Curry.framework */; };
-		F84318A81B9A2D7A00165216 /* DecodeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84318A71B9A2D7A00165216 /* DecodeError.swift */; settings = {ASSET_TAGS = (); }; };
-		F84318A91B9A2D7A00165216 /* DecodeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84318A71B9A2D7A00165216 /* DecodeError.swift */; settings = {ASSET_TAGS = (); }; };
-		F84318AA1B9A2D7A00165216 /* DecodeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84318A71B9A2D7A00165216 /* DecodeError.swift */; settings = {ASSET_TAGS = (); }; };
+		F84318A81B9A2D7A00165216 /* DecodeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84318A71B9A2D7A00165216 /* DecodeError.swift */; };
+		F84318A91B9A2D7A00165216 /* DecodeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84318A71B9A2D7A00165216 /* DecodeError.swift */; };
+		F84318AA1B9A2D7A00165216 /* DecodeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84318A71B9A2D7A00165216 /* DecodeError.swift */; };
 		F862E0AB1A519D470093B028 /* TypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA08313019D5EEAF003B90D7 /* TypeTests.swift */; };
 		F862E0AC1A519D520093B028 /* post_comments.json in Resources */ = {isa = PBXBuildFile; fileRef = EA08313219D5EEF2003B90D7 /* post_comments.json */; };
 		F862E0AD1A519D560093B028 /* types.json in Resources */ = {isa = PBXBuildFile; fileRef = EA08313419D5EFC0003B90D7 /* types.json */; };
@@ -148,6 +164,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		AA0E9EE01BACED2000AAD58F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F87D9D8C1A92676900C8AF1D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -188,6 +213,9 @@
 
 /* Begin PBXFileReference section */
 		4D5F6DD81B3832C200D79B25 /* user_with_nested_name.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user_with_nested_name.json; sourceTree = "<group>"; };
+		AA0E9EC41BACECFC00AAD58F /* Argo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Argo.h; sourceTree = "<group>"; };
+		AA0E9EC61BACECFC00AAD58F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0E9EE41BACED2000AAD58F /* Argo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Argo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF92789C1B9365900038A7E1 /* RawRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RawRepresentable.swift; path = Argo/Extensions/RawRepresentable.swift; sourceTree = SOURCE_ROOT; };
 		D0592EB61B77DD7800EFEF39 /* Argo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Argo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5DF08FF1BAA174600704741 /* DecodedOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodedOperators.swift; sourceTree = "<group>"; };
@@ -250,6 +278,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AA0E9EDB1BACED2000AAD58F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D0592EB21B77DD7800EFEF39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -292,6 +327,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA0E9EC31BACECFC00AAD58F /* Argo */ = {
+			isa = PBXGroup;
+			children = (
+				AA0E9EC41BACECFC00AAD58F /* Argo.h */,
+				AA0E9EC61BACECFC00AAD58F /* Info.plist */,
+			);
+			path = Argo;
+			sourceTree = "<group>";
+		};
 		EABDF68C1A9CD4EA00B6CC83 /* plists */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +350,7 @@
 			children = (
 				EAD9FAD119D0EAB50031E006 /* Argo */,
 				EAD9FADB19D0EAB60031E006 /* ArgoTests */,
+				AA0E9EC31BACECFC00AAD58F /* Argo */,
 				EAD9FAD019D0EAB50031E006 /* Products */,
 				F87AD8BB1AF7DFD200D6E3FF /* Frameworks */,
 			);
@@ -322,6 +367,7 @@
 				F89335541A4CE83000B88685 /* Argo.framework */,
 				F893355E1A4CE83000B88685 /* Argo-MacTests.xctest */,
 				D0592EB61B77DD7800EFEF39 /* Argo.framework */,
+				AA0E9EE41BACED2000AAD58F /* Argo.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -494,6 +540,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		AA0E9EDC1BACED2000AAD58F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0E9EDD1BACED2000AAD58F /* Argo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D0592EB31B77DD7800EFEF39 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -520,6 +574,26 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		AA0E9ECA1BACED2000AAD58F /* Argo-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0E9EE11BACED2000AAD58F /* Build configuration list for PBXNativeTarget "Argo-tvOS" */;
+			buildPhases = (
+				AA0E9ECB1BACED2000AAD58F /* Sources */,
+				AA0E9EDB1BACED2000AAD58F /* Frameworks */,
+				AA0E9EDC1BACED2000AAD58F /* Headers */,
+				AA0E9EDE1BACED2000AAD58F /* Resources */,
+				AA0E9EDF1BACED2000AAD58F /* Warn for TODO and FIXME comments */,
+				AA0E9EE01BACED2000AAD58F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Argo-tvOS";
+			productName = argo;
+			productReference = AA0E9EE41BACED2000AAD58F /* Argo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		D0592EB51B77DD7800EFEF39 /* Argo-watchOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0592EBD1B77DD7800EFEF39 /* Build configuration list for PBXNativeTarget "Argo-watchOS" */;
@@ -659,11 +733,19 @@
 				F89335531A4CE83000B88685 /* Argo-Mac */,
 				F893355D1A4CE83000B88685 /* Argo-MacTests */,
 				D0592EB51B77DD7800EFEF39 /* Argo-watchOS */,
+				AA0E9ECA1BACED2000AAD58F /* Argo-tvOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AA0E9EDE1BACED2000AAD58F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D0592EB41B77DD7800EFEF39 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -752,9 +834,45 @@
 			shellPath = /bin/sh;
 			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
 		};
+		AA0E9EDF1BACED2000AAD58F /* Warn for TODO and FIXME comments */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Warn for TODO and FIXME comments";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AA0E9ECB1BACED2000AAD58F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0E9ECC1BACED2000AAD58F /* Decoded.swift in Sources */,
+				AA0E9ECD1BACED2000AAD58F /* RawRepresentable.swift in Sources */,
+				AA0E9ECE1BACED2000AAD58F /* Decodable.swift in Sources */,
+				AA0E9ECF1BACED2000AAD58F /* decode.swift in Sources */,
+				AA0E9ED01BACED2000AAD58F /* OptionalOperators.swift in Sources */,
+				AA0E9ED11BACED2000AAD58F /* JSON.swift in Sources */,
+				AA0E9ED21BACED2000AAD58F /* flatReduce.swift in Sources */,
+				AA0E9ED31BACED2000AAD58F /* sequence.swift in Sources */,
+				AA0E9ED41BACED2000AAD58F /* DecodeError.swift in Sources */,
+				AA0E9ED51BACED2000AAD58F /* Runes.swift in Sources */,
+				AA0E9ED61BACED2000AAD58F /* Dictionary.swift in Sources */,
+				AA0E9ED71BACED2000AAD58F /* DecodedOperators.swift in Sources */,
+				AA0E9ED81BACED2000AAD58F /* Operators.swift in Sources */,
+				AA0E9ED91BACED2000AAD58F /* StandardTypes.swift in Sources */,
+				AA0E9EDA1BACED2000AAD58F /* curry.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D0592EB11B77DD7800EFEF39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -885,6 +1003,48 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		AA0E9EE21BACED2000AAD58F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Argo/Resources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtbot.$(PRODUCT_NAME)";
+				PRODUCT_NAME = Argo;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA0E9EE31BACED2000AAD58F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Argo/Resources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtbot.$(PRODUCT_NAME)";
+				PRODUCT_NAME = Argo;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		D0592EBB1B77DD7800EFEF39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1202,6 +1362,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AA0E9EE11BACED2000AAD58F /* Build configuration list for PBXNativeTarget "Argo-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0E9EE21BACED2000AAD58F /* Debug */,
+				AA0E9EE31BACED2000AAD58F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D0592EBD1B77DD7800EFEF39 /* Build configuration list for PBXNativeTarget "Argo-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
